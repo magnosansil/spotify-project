@@ -1,0 +1,21 @@
+{
+  "name": "spotify-project",
+  "version": "1.0.0",
+  "description": "The Spotify Clone is a web application that emulates core functionalities of Spotify, including browse by artists, songs and control player. This project is divided into two main components:",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm i --prefix back-end && npm i --prefix front-end && npm run build --prefix front-end",
+    "start": "npm run start --prefix back-end"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magnosansil/spotify-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/magnosansil/spotify-project/issues"
+  },
+  "homepage": "https://github.com/magnosansil/spotify-project#readme"
+}
